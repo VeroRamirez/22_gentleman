@@ -21,6 +21,9 @@
 .float-right{
 	float: right;
 }
+.float-left{
+	float: left;
+}
 .titulo{
 	font-family: fontAwesome, Arial;
 	font-weight: bold;
@@ -60,6 +63,9 @@ a{
 .pt-footer{
 	padding-top: 2%;
 }
+.pt-footer2{
+	padding-top: 4%;
+}
 .pt-twit-2{
 	padding-left: 5%;
 }
@@ -78,6 +84,7 @@ a{
 	font-weight: bold;
 	padding:2%;
 	text-align: center;
+	cursor:pointer;
 }
 .btn-twit{
 	background:rgba(0,0,0,0.5);
@@ -90,6 +97,7 @@ a{
 	font-weight: bold;
 	padding:2%;
 	text-align: center;
+	cursor:pointer;
 }
 hr{
 	color: gray;
@@ -130,6 +138,10 @@ hr{
 	color:rgba(255,255,255,0.3);
 	font-size: 30px;
 }
+.ico-heart{
+	color:rgba(0,0,0,0.5);
+	font-size: 20px;
+}
 .back-footer{
 	background: rgba(0,0,0,0.8);
 	height: 30%;
@@ -137,7 +149,6 @@ hr{
 .font-footer{
 	color:white;
 	font-size: 12px;
-	padding-left:5%;
 }
 .list-link{
 	padding:2%;
@@ -156,4 +167,52 @@ hr{
 .color-gray{
 	color:gray;
 	font-size: 11px;
+}
+.btn-pie{
+	background:#DF0174; /*fiusha*/
+	width: 60px;
+	height: 20px;
+	border-radius: 5px;
+	border: none;
+	font-size: 10px;
+	font-weight: bold;
+	color:white;
+	padding:1%;
+	text-align: center;
+	cursor:pointer;
+}
+.inline{
+	display: inline-block;
+}
+.font-fiusha{
+	color:#DF0174;
+}
+.btn-pie2{
+	background: black;
+	width: 150px;
+	height: 40px;
+	border-radius: 5px;
+	border: none;
+	color:white;
+	padding:15px;
+	cursor:pointer;
+}
+.btn-pie2:hover{
+	-webkit-box-shadow: 5px 5px 3px 0px rgba(0,0,0,0.75);
+}
+.font-pie-1{
+	font-size: 12px;
+	color:white;
+}
+.font-pie-12{
+	font-size: 12px;
+	color:white;
+}
+.font-cursive{
+	font-style: italic;
+	color:rgba(255,255,255,0.3);
+}
+.font-pie-10{
+	font-size: 10px;
+	color:white;
 }
